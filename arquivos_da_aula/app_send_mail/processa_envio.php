@@ -59,7 +59,7 @@
 			$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 			$mail->Port       = 587; 
 			$mail->CharSet = 'UTF-8';
-            $mail->Encoding = 'base64';                                   //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+                        $mail->Encoding = 'base64';                                   //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
 			//Recipients
 			$mail->setFrom('renatoguara2020@gmail.com', 'Web Completo Remetente');
